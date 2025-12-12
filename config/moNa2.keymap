@@ -72,10 +72,10 @@
 
         layer_1 {
             bindings = <
-&trans     &kp N7        &kp N8        &trans  &trans                    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp PLUS   &kp NUMBER_4  &kp N5        &trans  &trans            &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
-&kp SLASH  &kp ASTERISK  &kp EQUAL     &trans  &trans  &trans    &trans  &trans                          &kp F12
+&trans     &kp N7        &kp N8        &kp N9                &kp COMMA                                                   &kp QUESTION     &kp HASH        &kp DOLLAR      &kp AMPERSAND    &kp DOUBLE_QUOTES
+&kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6          &kp PERIOD                           &kp LEFT_PARENTHESIS   &kp EXCLAMATION  &kp SLASH       &kp UP_ARROW    &kp PERCENT      &kp UNDERSCORE
+&kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp N0                  &kp EQUAL    &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON
+&kp SLASH  &kp ASTERISK  &kp EQUAL     &mt LEFT_SHIFT LANG2  &mt LEFT_CONTROL LANG1  &kp SPACE    &kp BACKSPACE          &kp ENTER                                                         &kp SEMICOLON
             >;
 
             sensor-bindings = <&scroll_up_down>;
