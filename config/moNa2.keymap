@@ -70,7 +70,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp F5    &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &kp F5    &mkp MB4  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
             >;
 
