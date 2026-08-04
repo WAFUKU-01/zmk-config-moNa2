@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: MIT
+
+config MONA2_AUTOMOUSE_CANCEL
+	bool "Drop the auto mouse layer when a normal key is typed"
+	default n
+	help
+	  The pmw3610 driver only drops its auto mouse layer on a timer, so for
+	  CONFIG_PMW3610_AUTOMOUSE_TIMEOUT_MS milliseconds after touching the
+	  trackball the keys that the mouse layer overrides stay overridden.
+	  Enable this to drop the layer as soon as an ordinary key is emitted.
+	  Mouse buttons and held modifiers keep the layer alive.
+
+config MONA2_AUTOMOUSE_CANCEL_LAYER
+	int "Index of the auto mouse layer"
+	depends on MONA2_AUTOMOUSE_CANCEL
+	default 1
+	help
+	  Must match the automouse-layer property of the trackball node.
