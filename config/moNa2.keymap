@@ -68,9 +68,9 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans                &trans                                         &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans                &trans                                 &trans  &trans  &mkp MB1  &mkp MB2  &trans    &trans
-&trans  &trans  &trans  &trans                &trans                  &trans         &trans  &trans  &trans    &kp F5    &mkp MB4  &trans
+&trans  &trans  &trans  &trans                     &trans                                                &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans                     &trans                                        &trans  &trans  &mkp MB1  &mkp MB2  &trans    &trans
+&trans  &trans  &trans  &trans                     &trans                         &trans         &trans  &trans  &trans    &kp F5    &mkp MB4  &trans
 &trans  &trans  &trans  &mt LEFT_SHIFT INT_HENKAN  &mt LEFT_CONTROL INT_MUHENKAN  &lt 2 SPACE    &trans  &trans                                &trans
             >;
 
@@ -79,9 +79,9 @@
 
         layer_1 {
             bindings = <
-&kakko     &kp N7        &kp N8        &kp N9                &kp COMMA                                           &kp QUESTION     &kp HASH        &kp DOLLAR      &kp AMPERSAND    &kp DOUBLE_QUOTES
-&kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6          &kp PERIOD                           &kp COMMA      &kp EXCLAMATION  &kp SLASH       &kp UP_ARROW    &kp PERCENT      &kp UNDERSCORE
-&kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp N0                  &kp EQUAL    &kp PERIOD     &kp AT_SIGN      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON
+&kakko     &kp N7        &kp N8        &kp N9                     &kp COMMA                                                  &kp QUESTION     &kp HASH        &kp DOLLAR      &kp AMPERSAND    &kp DOUBLE_QUOTES
+&kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6               &kp PERIOD                                  &kp COMMA      &kp EXCLAMATION  &kp SLASH       &kp UP_ARROW    &kp PERCENT      &kp UNDERSCORE
+&kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3               &kp N0                         &kp EQUAL    &kp PERIOD     &kp AT_SIGN      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp COLON
 &kp SLASH  &kp ASTERISK  &kp EQUAL     &mt LEFT_SHIFT INT_HENKAN  &mt LEFT_CONTROL INT_MUHENKAN  &kp SPACE    &kp BACKSPACE  &kp ENTER                                                         &kp SEMICOLON
             >;
 
